@@ -52,5 +52,4 @@ def logic_test():
 
     print(f"Тест окончен! Правильных ответов: {correct_answers} из {len(questions)}.")
 
-
 logic_test()
