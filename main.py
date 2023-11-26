@@ -39,7 +39,7 @@ def logic_test():
 
     for question_text, correct_answer in questions:
         user_answer = input(question_text + " ")
-        print("Погодика, дай-ка проверю...")
+        print(Fore.WHITE + "Погодика, дай-ка проверю...")
         if question_text == "==============Что у тебя написанно в txt файле?==============":
             with open(file_path, 'r') as file:
                 if check_answer(file.read().strip(), user_answer):
